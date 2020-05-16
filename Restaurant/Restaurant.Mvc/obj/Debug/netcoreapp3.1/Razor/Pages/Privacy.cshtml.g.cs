@@ -28,13 +28,13 @@ using Restaurant.Mvc;
 #nullable disable
 #nullable restore
 #line 3 "D:\repo\Restaurant\Restaurant\Restaurant.Mvc\Pages\_ViewImports.cshtml"
-using Restaurant.Mvc.Data;
+using Restaurant.DataAccess;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0906750319c55d6ce48b545e707c28c2eb4094c", @"/Pages/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"90013a72463987d35df3c5dbbc616b3e98831584", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d995d01c41b25017403b71249d586e540355cfba", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Privacy : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

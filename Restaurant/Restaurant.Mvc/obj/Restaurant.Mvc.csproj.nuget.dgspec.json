@@ -4,14 +4,14 @@
     "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj": {}
   },
   "projects": {
-    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj": {
+    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
-        "projectName": "Restaurant.Mvc",
-        "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
+        "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
+        "projectName": "Restaurant.DataAccess",
+        "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Us\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\obj\\",
+        "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,17 +41,74 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.1, )"
-            },
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
+        "projectName": "Restaurant.Mvc",
+        "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
+        "packagesPath": "C:\\Users\\Us\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Us\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
+                "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
@@ -59,11 +116,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
