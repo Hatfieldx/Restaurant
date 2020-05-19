@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj": {}
+    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj": {}
   },
   "projects": {
     "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj": {
+    "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
-        "projectName": "Restaurant.Mvc",
-        "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\Restaurant.Mvc.csproj",
+        "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj",
+        "projectName": "Restaurant.Infra.IoC",
+        "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\Us\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Mvc\\obj\\",
+        "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -169,21 +169,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[3.1.4, )"
             }
@@ -199,9 +185,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

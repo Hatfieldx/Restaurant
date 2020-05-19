@@ -340,6 +340,21 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "Restaurant.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "5.2.7",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4",
+          "Restaurant.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        }
+      },
       "Restaurant.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -926,6 +941,11 @@
         "version.txt"
       ]
     },
+    "Restaurant.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj",
+      "msbuildProject": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj"
+    },
     "Restaurant.Domain/1.0.0": {
       "type": "project",
       "path": "../Restaurant.Domain/Restaurant.Domain.csproj",
@@ -934,9 +954,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNet.Mvc >= 5.2.7",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.4",
-      "Restaurant.Domain >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection >= 3.1.4",
+      "Restaurant.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -946,11 +965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
-      "projectName": "Restaurant.DataAccess",
-      "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
+      "projectUniqueName": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj",
+      "projectName": "Restaurant.Infra.IoC",
+      "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\Restaurant.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\Us\\.nuget\\packages\\",
-      "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\obj\\",
+      "outputPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -969,8 +988,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Domain\\Restaurant.Domain.csproj": {
-              "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.Domain\\Restaurant.Domain.csproj"
+            "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
+              "projectPath": "D:\\repo\\Restaurant\\Restaurant\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj"
             }
           }
         }
@@ -984,11 +1003,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.AspNet.Mvc": {
-            "target": "Package",
-            "version": "[5.2.7, )"
-          },
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[3.1.4, )"
           }

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Restaurant.DataAccess/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4",
+          "Restaurant.Domain": "1.0.0"
         },
         "runtime": {
           "Restaurant.DataAccess.dll": {}
@@ -262,6 +263,11 @@
             "fileVersion": "4.700.20.21406"
           }
         }
+      },
+      "Restaurant.Domain/1.0.0": {
+        "runtime": {
+          "Restaurant.Domain.dll": {}
+        }
       }
     }
   },
@@ -445,6 +451,11 @@
       "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "path": "system.diagnostics.diagnosticsource/4.7.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "Restaurant.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

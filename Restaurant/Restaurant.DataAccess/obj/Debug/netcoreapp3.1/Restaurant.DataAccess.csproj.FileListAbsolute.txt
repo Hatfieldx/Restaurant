@@ -5,3 +5,7 @@ D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\obj\Debug\netcoreapp3.1\Rest
 D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\bin\Debug\netcoreapp3.1\Restaurant.DataAccess.pdb
 D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\obj\Debug\netcoreapp3.1\Restaurant.DataAccess.dll
 D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\obj\Debug\netcoreapp3.1\Restaurant.DataAccess.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\bin\Debug\netcoreapp3.1\Restaurant.Domain.dll
+D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\bin\Debug\netcoreapp3.1\Restaurant.Domain.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\obj\Debug\netcoreapp3.1\Restaurant.DataAccess.csprojAssemblyReference.cache
+D:\repo\Restaurant\Restaurant\Restaurant.DataAccess\obj\Debug\netcoreapp3.1\Restaurant.DataAccess.csproj.CopyComplete
