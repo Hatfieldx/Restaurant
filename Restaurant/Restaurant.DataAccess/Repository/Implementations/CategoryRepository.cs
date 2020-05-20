@@ -36,6 +36,8 @@ namespace Restaurant.DataAccess.Repository.Implementations
 
             entity.DisplayOrder = category.DisplayOrder;
 
+            entity.Icon = category.Icon;
+
             _context.SaveChanges();
         }
     }

@@ -1,13 +1,13 @@
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.Infra.IoC.deps.json
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.Infra.IoC.dll
-D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.csprojAssemblyReference.cache
-D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.AssemblyInfoInputs.cache
-D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.AssemblyInfo.cs
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.Infra.IoC.pdb
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.DataAccess.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.Domain.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.DataAccess.pdb
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\bin\Debug\netcoreapp3.1\Restaurant.Domain.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.csprojAssemblyReference.cache
+D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.AssemblyInfoInputs.cache
+D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.AssemblyInfo.cs
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.csproj.CopyComplete
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Infra.IoC\obj\Debug\netcoreapp3.1\Restaurant.Infra.IoC.pdb

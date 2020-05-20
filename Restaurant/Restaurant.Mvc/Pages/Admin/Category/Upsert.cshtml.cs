@@ -36,7 +36,7 @@ namespace Restaurant.Mvc
         }
          
         public IActionResult OnPost()
-        {
+        {     
             if (!ModelState.IsValid)
             {
                 return Page();

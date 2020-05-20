@@ -12,8 +12,17 @@ function loadList() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "name", "width": "40%" },
-            { "data": "displayOrder", "width": "30%" },
+            { "data": "name", "width": "20%" },
+            { "data": "displayOrder", "width": "10%" },
+            {
+                "data": "icon",
+                "render": function (data) {
+                    return ` <div class="text-center">
+                                <i class="fas fa-${data}" style="font-size:36px"></i>
+                    </div>`;
+                },
+                "width": "20%"
+            },
             {
                 "data": "id",
                 "render": function (data) {
