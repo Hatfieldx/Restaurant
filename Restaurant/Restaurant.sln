@@ -19,11 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Utility", "Restaurant.Utility\Restaurant.Utility.csproj", "{60B4E608-DCE5-4696-B964-F40EBB2743D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Application", "Restaurant.Application\Restaurant.Application.csproj", "{D5A7BCD3-6713-48FB-B440-C7921E115B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Application", "Restaurant.Application\Restaurant.Application.csproj", "{D5A7BCD3-6713-48FB-B440-C7921E115B88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2DC6A7B7-3596-4CDE-9D3D-F79BFA301D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Infra.IoC", "Restaurant.Infra.IoC\Restaurant.Infra.IoC.csproj", "{47BE125F-05B1-4047-A73A-B0181954AFB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Infra.IoC", "Restaurant.Infra.IoC\Restaurant.Infra.IoC.csproj", "{47BE125F-05B1-4047-A73A-B0181954AFB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

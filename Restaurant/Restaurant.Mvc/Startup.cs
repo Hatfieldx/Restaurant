@@ -12,7 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Restaurant.DataAccess;
-
+using Restaurant.DataAccess.Repository.Implementations;
+using Restaurant.DataAccess.Repository.Interfaces;
 
 namespace Restaurant.Mvc
 {
@@ -28,6 +29,7 @@ namespace Restaurant.Mvc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -36,9 +38,9 @@ namespace Restaurant.Mvc
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddRazorPages()
-                .AddRazorRuntimeCompilation();
-               
+            services.AddRazorPages();
+            services.AddControllersWithViews()
+                .AddRazorRuntimeCompilation();    
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,6 +68,7 @@ namespace Restaurant.Mvc
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
         }

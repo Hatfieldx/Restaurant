@@ -10,7 +10,7 @@ namespace Restaurant.DataAccess
         public RestaurantContext(DbContextOptions<RestaurantContext> options)
             : base(options)
         {
-            Database.EnsureDeleted();
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

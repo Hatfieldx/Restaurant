@@ -5,3 +5,4 @@ D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaura
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.AssemblyInfo.cs
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.csprojAssemblyReference.cache
