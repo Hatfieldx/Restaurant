@@ -6,6 +6,8 @@ namespace Restaurant.DataAccess
     public class RestaurantContext : DbContext
     {
         public DbSet<Category> Categories { get; set; }
+        public DbSet<FoodType> FoodTypes { get; set; }
+        public DbSet<MenuItem> MenuItems { get; set; }
 
         public RestaurantContext(DbContextOptions<RestaurantContext> options)
             : base(options)

@@ -13,9 +13,12 @@ namespace Restaurant.DataAccess.Repository.Implementations
             _context = context;
 
             Category = new CategoryRepository(_context);
+
+            FoodType = new FoodTypeRepository(_context);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public IFoodTypeRepository FoodType { get; private set; }
 
         public void Dispose()
         {

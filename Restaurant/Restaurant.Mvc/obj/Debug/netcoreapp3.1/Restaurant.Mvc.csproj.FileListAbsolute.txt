@@ -432,3 +432,5 @@ D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Restaurant.
 D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Restaurant.Mvc.csproj.CopyComplete
 D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Restaurant.Mvc.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Restaurant.Mvc.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
+D:\repo\Restaurant\Restaurant\Restaurant.Mvc\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
