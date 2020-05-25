@@ -1,0 +1,37 @@
+﻿@page
+@model Restaurant.Mvc.Pages.Customer.Home.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (var category in Model.CategoryList)
+{
+    @if (Model.MenuItemList.Any(c => c.CategoryId == category.Id))
+    {
+        <div class=" row container pb-3 backgroundWhite">
+            <div class=" col-12">
+                <div class=" row">
+                    <h2 class=" text-success pl-1"><b>@category.Name</b></h2>
+
+                    <div class=" col-12">
+                        <div class="row my-3">
+                            @foreach (var item in Model.MenuItemList.Where(c => c.CategoryId == category.Id))
+                            {
+                                <div class="col-lg-3 col-xl-3 col-md-6 pb-4">
+                                    <div class="card" style="border:2px solid #43ac6a; border-radius:5px;">
+                                        <div class="pl-3 pt-1 text-center">
+                                            <h3 class="card-title text-primary"><b>@item.Name</b></h3>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    }
+}
+

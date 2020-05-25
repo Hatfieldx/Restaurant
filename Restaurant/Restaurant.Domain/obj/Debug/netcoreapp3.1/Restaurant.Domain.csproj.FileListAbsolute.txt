@@ -1,8 +1,8 @@
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\bin\Debug\netcoreapp3.1\Restaurant.Domain.deps.json
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\bin\Debug\netcoreapp3.1\Restaurant.Domain.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\bin\Debug\netcoreapp3.1\Restaurant.Domain.pdb
-D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.csprojAssemblyReference.cache
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.AssemblyInfoInputs.cache
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.AssemblyInfo.cs
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.dll
 D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.pdb
+D:\repo\Restaurant\Restaurant\Restaurant.Domain\obj\Debug\netcoreapp3.1\Restaurant.Domain.csprojAssemblyReference.cache

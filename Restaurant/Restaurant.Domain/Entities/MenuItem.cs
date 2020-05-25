@@ -18,12 +18,12 @@ namespace Restaurant.Domain.Entities
         public double Price { get; set; }
 
         [Display(Name = "Category type")]
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
 
         [Display(Name = "Food type")]
-        public int FoodTypeId { get; set; }
+        public int? FoodTypeId { get; set; }
         [ForeignKey("FoodTypeId")]
         public FoodType FoodType { get; set; }
     }

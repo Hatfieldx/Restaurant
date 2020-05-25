@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Restaurant.DataAccess;
 
 namespace Restaurant.Infra.IoC
 {
@@ -8,7 +7,7 @@ namespace Restaurant.Infra.IoC
         public static void RegServices(IServiceCollection services)
         {
             //DataAccess
-            services.AddScoped<RestaurantContext>();
+            //services.AddScoped<RestaurantContext>();
 
         }
     }

@@ -6,6 +6,7 @@ namespace Restaurant.DataAccess.Repository.Interfaces
     {
         ICategoryRepository Category { get; }
         IFoodTypeRepository FoodType { get; }
+        IMenuItemRepository MenuItem { get; }
         void Save();
     }
 }
