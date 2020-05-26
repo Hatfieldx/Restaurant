@@ -14,6 +14,8 @@ using Microsoft.Extensions.Hosting;
 using Restaurant.DataAccess;
 using Restaurant.DataAccess.Repository.Implementations;
 using Restaurant.DataAccess.Repository.Interfaces;
+using Restaurant.Utility;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace Restaurant.Mvc
 {
@@ -36,8 +38,19 @@ namespace Restaurant.Mvc
             services.AddDbContext<RestaurantContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser, IdentityRole>(x => {
+                x.Password.RequireNonAlphanumeric = false;
+                x.Password.RequireDigit = false;
+                x.Password.RequiredLength = 3;
+                x.Password.RequireUppercase = false;
+                })
+                .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddSingleton<IEmailSender, EmailSender>();
+            
+            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //    .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation();    
